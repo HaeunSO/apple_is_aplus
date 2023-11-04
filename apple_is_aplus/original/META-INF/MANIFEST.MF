@@ -1,0 +1,55 @@
+Manifest-Version: 1.0
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 3.1.4
+
+Name: AndroidManifest.xml
+SHA1-Digest: DWgyoTTkZNERKy84uOwa5f8lQzU=
+
+Name: META-INF/android.arch.core_runtime.version
+SHA1-Digest: BeF7ZGqBckDCBhhvlPj0xwl01dw=
+
+Name: META-INF/android.arch.lifecycle_livedata-core.version
+SHA1-Digest: BeF7ZGqBckDCBhhvlPj0xwl01dw=
+
+Name: META-INF/android.arch.lifecycle_runtime.version
+SHA1-Digest: BeF7ZGqBckDCBhhvlPj0xwl01dw=
+
+Name: META-INF/android.arch.lifecycle_viewmodel.version
+SHA1-Digest: BeF7ZGqBckDCBhhvlPj0xwl01dw=
+
+Name: META-INF/com.android.support_animated-vector-drawable.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_appcompat-v7.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_support-compat.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_support-core-ui.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_support-core-utils.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_support-fragment.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_support-vector-drawable.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: classes.dex
+SHA1-Digest: aETfeVFIynPo8W546BCUnadRDWs=
+
+Name: classes2.dex
+SHA1-Digest: Q8CbKaarDoID3Hnq6mrSZvyD3Gw=
+
+Name: classes3.dex
+SHA1-Digest: gDsrABrizJ3loGaf7XOxvi5k34s=
+
+Name: classes4.dex
+SHA1-Digest: 3Qgt6s7mskVAeMfLBQB8nWGfhyo=
+
+Name: resources.arsc
+SHA1-Digest: gEfWFLTlHtQQt0A9hrsEAtX7QtE=
+

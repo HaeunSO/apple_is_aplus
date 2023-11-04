@@ -1,0 +1,57 @@
+package com.example.pc.apple;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.ViewFlipper;
+
+public class IntroActivity extends AppCompatActivity {
+
+
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_intro);
+
+        Button btnSkip, btnStart ;
+        final ViewFlipper vfInrto;
+
+        Animation slide_in_right, slide_out_left;
+        final Animation showln = AnimationUtils.loadAnimation(this, android.R.anim.slide_in_left);
+        final Animation showln2 = AnimationUtils.loadAnimation(this, android.R.anim.slide_out_right);
+
+        btnSkip = (Button) findViewById(R.id.BtnSkip);
+        btnStart = (Button) findViewById(R.id.BtnStart);
+        vfInrto = (ViewFlipper) findViewById(R.id.vfIntro);
+
+        btnStart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                vfInrto.setFlipInterval(3000);
+                vfInrto.startFlipping();
+                vfInrto.setInAnimation(showln);
+                vfInrto.setOutAnimation(showln2);
+
+
+            }
+        });
+
+        btnSkip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                vfInrto.stopFlipping();
+                Intent intentS = new Intent(getApplicationContext(), StepActivity.class);
+                startActivity(intentS);
+
+            }
+        });
+
+
+    }
+}
+

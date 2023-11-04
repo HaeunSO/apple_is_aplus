@@ -1,0 +1,56 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: PfrzBdbqDTGQCG6pBLM9TD1MNhE=
+X-Android-APK-Signed: 2
+
+Name: AndroidManifest.xml
+SHA1-Digest: zARD9qC1YgFYw2NT0sKuWrrWQGc=
+
+Name: META-INF/android.arch.core_runtime.version
+SHA1-Digest: OPQCkzMXJVPQryHeMowVNZmfRMw=
+
+Name: META-INF/android.arch.lifecycle_livedata-core.version
+SHA1-Digest: TSBGEIW1zN2n2sraHWcuRYSO8JU=
+
+Name: META-INF/android.arch.lifecycle_runtime.version
+SHA1-Digest: yMBVn3OtS/Z9YTo02MlcvU6yfFM=
+
+Name: META-INF/android.arch.lifecycle_viewmodel.version
+SHA1-Digest: 5aVTTikyBvFlGq287kN/q6fe0kA=
+
+Name: META-INF/com.android.support_animated-vector-drawable.version
+SHA1-Digest: lld9ASrSjM6+z9Ys4FZI6ZM9n1M=
+
+Name: META-INF/com.android.support_appcompat-v7.version
+SHA1-Digest: dUf1m3Ti4buPSODaVcp1VWepIOg=
+
+Name: META-INF/com.android.support_support-compat.version
+SHA1-Digest: DaKaj/ZvRw9LgDZnRu3xrZUTsAI=
+
+Name: META-INF/com.android.support_support-core-ui.version
+SHA1-Digest: DNv2nNr6KX947YtxITsmbT7FZEE=
+
+Name: META-INF/com.android.support_support-core-utils.version
+SHA1-Digest: gtpAcUIHuONTLiBpVwg99/mlw5U=
+
+Name: META-INF/com.android.support_support-fragment.version
+SHA1-Digest: kYX3tvl4kIvC9qMMrS4BDTtZbB4=
+
+Name: META-INF/com.android.support_support-vector-drawable.version
+SHA1-Digest: /jssoc0wz3KxIx0g6C6ntZMU8UA=
+
+Name: classes.dex
+SHA1-Digest: NxQJDToldKECc0sH02v5QrfotTA=
+
+Name: classes2.dex
+SHA1-Digest: l760dEbdhTD64xm4/+Cdvhw0yBU=
+
+Name: classes3.dex
+SHA1-Digest: ZTlFPc1vJToiXG/2Onv+UO4SJLU=
+
+Name: classes4.dex
+SHA1-Digest: JNP0JxX+KNzEo9X2LjB8FGeCdDA=
+
+Name: resources.arsc
+SHA1-Digest: DrctDdvKQX2FRJuqvYaX3HMrO34=
+

@@ -1,0 +1,88 @@
+package com.example.pc.apple;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.CountDownTimer;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class StepOne extends Activity {
+
+    Button btnclock, bigclock, itemclock, btncarrot, itemcarrot;
+    TextView counttext, counttime;
+    int counter = 0;
+    CountDownTimer countDownTimer;
+
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.stepone);
+        {
+
+
+            btnclock = (Button) findViewById(R.id.btnclock);
+            bigclock = (Button) findViewById(R.id.bigclock);
+            itemclock = (Button) findViewById(R.id.itemclock);
+            btncarrot = (Button) findViewById(R.id.btncarrot);
+            itemcarrot = (Button) findViewById(R.id.itemcarrot);
+
+            counttext = (TextView) findViewById(R.id.counttext);
+            counttime = (TextView) findViewById(R.id.counttime);
+
+
+            countDownTimer = new CountDownTimer(10000, 0) {
+
+                @Override
+                public void onTick(long millisUntilFinished) {
+                    counttime.setText("시간 제한 : " + millisUntilFinished);
+                }
+
+                @Override
+                public void onFinish() {
+                    counttime.setText("시간 종료");
+                }
+            };
+
+
+            btnclock.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    btnclock.setVisibility(View.GONE);
+                    itemclock.setVisibility(View.VISIBLE);
+                }
+            });
+
+            btncarrot.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    btncarrot.setVisibility(View.GONE);
+                    itemcarrot.setVisibility(View.VISIBLE);
+                }
+            });
+
+            itemcarrot.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    itemcarrot.setVisibility(View.INVISIBLE);
+                    bigclock.setVisibility(View.VISIBLE);
+                    counttext.setVisibility(View.VISIBLE);
+                    counttime.setVisibility(View.VISIBLE);
+                    countDownTimer.start();
+                }
+            });
+
+
+            bigclock.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    counttext.setText(String.valueOf(++counter));
+
+                    if(counter == 30) {
+                        countDownTimer.cancel();
+                    }
+                }
+            });
+
+        }
+    }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/z_room"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/desk"
+        android:layout_width="148dp"
+        android:layout_height="325dp"
+        android:layout_x="121dp"
+        android:layout_y="212dp"
+        android:background="@drawable/z_desk" />
+
+    <Button
+        android:id="@+id/orange"
+        android:layout_width="127dp"
+        android:layout_height="181dp"
+        android:layout_x="39dp"
+        android:layout_y="194dp"
+        android:background="@drawable/z_orange" />
+
+    <Button
+        android:id="@+id/pineapple"
+        android:layout_width="152dp"
+        android:layout_height="180dp"
+        android:layout_x="0dp"
+        android:layout_y="312dp"
+        android:background="@drawable/z_pineapple" />
+
+    <Button
+        android:id="@+id/banana"
+        android:layout_width="112dp"
+        android:layout_height="225dp"
+        android:layout_x="213dp"
+        android:layout_y="152dp"
+        android:background="@drawable/banana" />
+
+</AbsoluteLayout>

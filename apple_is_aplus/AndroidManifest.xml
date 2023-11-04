@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.pc.appleisa">
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@null" android:label="교수님, 자비를 주세요:APple IS APlus" android:largeHeap="true" android:roundIcon="@null" android:supportsRtl="true" android:testOnly="true" android:theme="@null">
+        <activity android:name="com.example.pc.appleisa.MainActivity"/>
+        <activity android:name="com.example.pc.appleisa.Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.pc.appleisa.IntroActivity"/>
+        <activity android:name="com.example.pc.appleisa.StepActivity"/>
+        <activity android:name="com.example.pc.appleisa.DialogActivity" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.example.pc.appleisa.One"/>
+        <activity android:name="com.example.pc.appleisa.Dialog_fail" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.example.pc.appleisa.Dialog_success" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.example.pc.appleisa.Minigame1"/>
+        <activity android:name="com.example.pc.appleisa.Step2Activity"/>
+        <activity android:name="com.example.pc.appleisa.Two"/>
+        <activity android:name="com.example.pc.appleisa.Dialog_fail2" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.example.pc.appleisa.Dialog_success2" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.example.pc.appleisa.Step3Activity"/>
+        <activity android:name="com.example.pc.appleisa.Three"/>
+        <activity android:name="com.example.pc.appleisa.Dialog_fail3" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.example.pc.appleisa.Dialog_success3" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.example.pc.appleisa.Step4Activity"/>
+        <activity android:name="com.example.pc.appleisa.Four"/>
+        <activity android:name="com.example.pc.appleisa.Dialog_fail4" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.example.pc.appleisa.Dialog_success4" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="com.example.pc.appleisa.Minigame2"/>
+        <activity android:name="com.example.pc.appleisa.EndingActivity"/>
+        <activity android:name="com.example.pc.appleisa.Thanks"/>
+        <provider android:authorities="com.example.pc.appleisa.com.android.tools.ir.server.InstantRunContentProvider" android:multiprocess="true" android:name="com.android.tools.ir.server.InstantRunContentProvider"/>
+    </application>
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="828px"
+    android:layout_height="1302px"
+    android:orientation="vertical"
+    android:gravity="top|right"
+    android:background="@drawable/c_info"
+    android:padding="30dp">
+
+
+    <Button
+        android:id="@+id/BtnCancel"
+        android:layout_width="62px"
+        android:layout_height="70px"
+        android:background="@drawable/c_cancel" />
+
+</LinearLayout>

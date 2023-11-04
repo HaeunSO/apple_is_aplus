@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:background="@drawable/z_room"
+android:padding="15dp">
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="89dp"
+        android:layout_height="103dp"
+        android:layout_x="55dp"
+        android:layout_y="308dp"
+        android:background="@drawable/z_phone" />
+
+    <Button
+        android:id="@+id/laptop"
+        android:layout_width="180dp"
+        android:layout_height="162dp"
+        android:layout_x="140dp"
+        android:layout_y="256dp"
+        android:background="@drawable/z_laptop" />
+
+    <ImageView
+        android:id="@+id/desk"
+        android:layout_width="wrap_content"
+        android:layout_height="129dp"
+        android:layout_x="0dp"
+        android:layout_y="333dp"
+        android:background="@drawable/z_desk" />
+
+    <ImageView
+        android:id="@+id/apple"
+        android:layout_width="80dp"
+        android:layout_height="64dp"
+        android:layout_x="142dp"
+        android:layout_y="57dp"
+        android:background="@drawable/z_apple" />
+
+</AbsoluteLayout>
